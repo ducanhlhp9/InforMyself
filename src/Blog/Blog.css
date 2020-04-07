@@ -1,0 +1,194 @@
+.Blog {
+    color: black;
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    height: 1400px;
+    z-index: -2;
+    justify-content: center;
+}
+.blog_categorie_area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.categories_post {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.categories_text {
+    position: absolute;
+    background: rgba(0,0,0,.2);
+    color: #ffffff;
+    top: 20px;
+    left: 75px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    line-height: 40px;
+    height: 180px;
+    width: calc(100% - 150px);
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.categories_post .categories_details .border_line {
+    margin: 10px 65px;
+    background: #fff;
+    width: 60%;
+    height: 2px;
+}
+
+.categories_text:hover {
+    background: rgba(0, 0, 0, .4);
+}
+
+.categories_text h5 {
+    border: 2px solid #fff;
+    width: 50%;
+    margin: 10px 80px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+section.banner {
+    background: url("banner.png");
+    margin-top: 0;
+    height: 450px;
+    background-size: cover;
+}
+
+section.banner .content {
+    text-align: center;
+    align-items: center;
+    margin-right: 400px;
+
+}
+
+section.banner .content h1 {
+    font-size: 80px;
+    color: #f9f2f4;
+    font-family: "Bookman Old Style";
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+section.banner .content a {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+section.banner .content a:hover {
+    background: #ff0;
+    border: 2px solid #ff0;
+    color: #262626;
+}
+
+.post {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    background: #f9f2f4;
+    margin-left: 60px;
+    top: 50px;
+    transition: 0.5s;
+    border: 1px solid #262626;
+}
+
+.post:hover {
+    top: 45px;
+}
+
+.post img {
+    width: 600px;
+    height: 500px;
+}
+.post-title {
+    position: absolute;
+    background: rgba(36, 38, 41, .8);
+    color: #fff;
+    bottom: 0;
+    font-weight: 600;
+    padding: 20px;
+    height: 35%;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+}
+
+.post_title h3 {
+    font-size: 50px;
+}
+
+.post-title p {
+    font-size: 12px;
+}
+
+.post-date {
+    position: absolute;
+    top: -50px;
+    right: 50px;
+    border-radius: 10px;
+    background: #678db8;
+    color: #262626;
+    padding: 20px;
+}
+
+.post-date span {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.post-date span:nth-child(1) {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.post-date span:nth-child(2) {
+}
+
+.post-date span:nth-child(3) {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.post .button {
+    position: absolute;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.post .button:hover {
+    font-size: 15px;
+    background: #dff0d8;
+    color: #262626;
+}
+
+.post .button.view {
+    bottom: 20px;
+    right: 90px;
+}

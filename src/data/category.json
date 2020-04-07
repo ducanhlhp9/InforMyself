@@ -1,0 +1,25 @@
+{
+  "data" : [
+    {
+      "id": 1,
+      "blogCategory": "Chuyện thường ngày",
+      "category_slug": "chuyen-thuong-ngay",
+      "category_content": "Những điều nhỏ bé trong tâm hồn",
+      "category_image": "category_1.png"
+    },
+    {
+      "id": 2,
+      "blogCategory": "Truyện",
+      "category_slug": "truyen",
+      "category_content":"Ở đây viết truyện",
+      "category_image": "category_2.png"
+    },
+    {
+      "id": 3,
+      "blogCategory": "Review sách",
+      "category_slug": "sach",
+      "category_content":"Những cuốn sách bản thân cảm thấy hay",
+      "category_image": "category_3.png"
+    }
+  ]
+}
